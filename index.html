@@ -7,7 +7,7 @@
     <meta name="keywords" content="HTML, CSS" />
     <meta name="description" content="..." />
     <title>Document</title>
-    
+
     <style>
       .profile {
         width: 120px;
@@ -15,21 +15,39 @@
         margin-left: auto;
         margin-right: auto;
       }
-      .forest {
-        width: 200px;
-        height: 300px;
-        object-fit: cover;
-      }
       .rotateimg180 {
-        -webkit-transform:rotate(180deg);
+        -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
         transform: rotate(180deg);
       }
-    </style> 
-    
-    
+      /* Container holding the image and the text */
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      /* Bottom left text */
+      .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+      .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+      /* Centered text */
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -38,26 +56,76 @@
         src="images/wonderlane.jpg"
         alt="forest with sunlight"
       />
-      <div class="bottom-left">Bottom Left</div>
-      <div class="top-left">Top Left</div>
-      <div class="top-right">Top Right</div>
-      <div class="bottom-right">Bottom Right</div>
       <div class="centered">Centered</div>
     </div>
     <h1>Welcome to Shimin's page! :D</h1>
-    <p>This webpage is under construction. </p>
-    <img
-      class="profile"
-      src="images/OCsurprise.jpeg"
-      alt="OC is surprised"
-    />
+    <p>This webpage is under construction.</p>
+    <img class="profile" src="images/OCsurprise.jpeg" alt="OC is surprised" />
     <a href="mailto:sf686@cantab.ac.uk">Email Me</a>
-    
-    
+
     <h2>Who I am</h2>
     <h2>What I aim to do</h2>
     <h2>What I'm doing</h2>
-    
+
+    <a href="#">Jump to Top</a>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="..." />
+    <title>Document</title>
+
+    <style>
+      .profile {
+        width: 120px;
+        border-radius: 60px;
+        float: left;
+      }
+      /* Container holding the image and the text */
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      /* Bottom left text */
+      .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+      }
+      .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+      }
+      /* Centered text */
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Shimin's page! :D</h1>
+    <p>This webpage is under construction.</p>
+
+    <a href="mailto:sf686@cantab.ac.uk">Email Me</a>
+    <img
+      class="forest"
+      src="images/wonderlane.jpg"
+      alt="forest with sunlight"
+    />
+    <h2>Who I am</h2>
+    <h2>What I aim to do</h2>
+    <h2>What I'm doing</h2>
 
     <a href="#">Jump to Top</a>
   </body>
