@@ -1,2 +1,2 @@
-# -Shimin233.github.io
-My Github page
+# Shimin233.github.io
+Welcome to my Github page :D
