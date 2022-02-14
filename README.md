@@ -12,4 +12,5 @@ see [guide](https://www.w3schools.com/howto/howto_css_image_text.asp)
 see [suggestion](https://stackoverflow.com/questions/44316184/transform-rotate-doesnt-work-in-safari)
 
 ### Cut and resize image at the same time
-[multiple solutions here](https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped)
+[multiple solutions here](https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped); 
+if want to resize to the screen size, check [this](https://stackoverflow.com/questions/4684304/how-can-i-resize-an-image-dynamically-with-css-as-the-browser-width-height-chang)
