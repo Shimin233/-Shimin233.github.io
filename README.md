@@ -10,3 +10,6 @@ see [guide](https://www.w3schools.com/howto/howto_css_image_text.asp)
 
 ### Rotation not successful in Safari
 see [suggestion](https://stackoverflow.com/questions/44316184/transform-rotate-doesnt-work-in-safari)
+
+### Cut and resize image at the same time
+[multiple solutions here](https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped)
