@@ -10,12 +10,11 @@
 
     <style>
       .profile {
-        width: 160px;
-        border-radius: 80px;
-        margin-left: auto;
-        margin-right: auto;
+        display: block;
+        width: 50%;
       }
       .mid {
+        display: block;
         margin-left: auto;
         margin-right: auto;
       }
@@ -26,7 +25,7 @@
         -o-transform: rotate(180deg);
         transform: rotate(180deg);
       }
-      .crop {
+      .resize {
         height: 150px;
       }
 
@@ -71,7 +70,8 @@
   <body>
     <div class="container">
       <img
-        class="crop forest"
+        class="resize"
+        style="object-fit: cover"
         src="images/wonderlane.jpg"
         alt="forest with sunlight"
       />
@@ -80,7 +80,11 @@
 
     <p class="mid sans-serif">This webpage is under construction.</p>
 
-    <img class="" src="images/OCsurprise.jpeg" alt="OC is surprised" />
+    <img
+      class="mid profile"
+      src="images/OCsurprise.jpeg"
+      alt="OC is surprised"
+    />
 
     <a
       class="mid sans-serif"
