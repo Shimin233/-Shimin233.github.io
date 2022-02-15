@@ -28,7 +28,9 @@
       .resize {
         height: 150px;
       }
-
+      .crop {
+        object-fit: cover;
+      }
       .forest {
         width: 100%;
         height: 150px;
@@ -70,8 +72,7 @@
   <body>
     <div class="container">
       <img
-        class="resize"
-        style="object-fit: cover"
+        class="crop forest"
         src="images/wonderlane.jpg"
         alt="forest with sunlight"
       />
