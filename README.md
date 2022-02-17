@@ -16,6 +16,16 @@ see [suggestion](https://stackoverflow.com/questions/44316184/transform-rotate-d
 if want to resize to the screen size, check [this](https://stackoverflow.com/questions/4684304/how-can-i-resize-an-image-dynamically-with-css-as-the-browser-width-height-chang)
 
 ## Potential projects to put
-Coursera, 
+### Coursera 
 [Python and web scrapping](https://www.coursera.org/learn/python-project-for-data-science/home/week/1)
 [Prerequisite](https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/W6xwd/rest-apis-http-requests-part-1)
+
+### Leetcode
+
+### Quant interview
+
+### Data analysis
+mindmaps, summaries
+
+### Insights and ideas into certain topics
+the difference between subjects with experiments and surveys in real word, and those only need pen&paper(pure maths except part of stats; theoretic physics?): collect facts from real world and trace back to study the underlying mechanism (e.g. empirical stats in finance like empirical duration), while the latter ones build mechanism and structure of theory to lead to results in real word (e.g. cannot invent an unknown maths theorem)
