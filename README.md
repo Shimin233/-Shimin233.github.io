@@ -18,6 +18,7 @@ if want to resize to the screen size, check [this](https://stackoverflow.com/que
 ## Potential projects to put
 ### Coursera 
 [Python and web scrapping](https://www.coursera.org/learn/python-project-for-data-science/home/week/1)
+ there is a 6-month extension to the IBM cloud trial account, while the IBM cloud account is necessary to create the final result of the final project of week 1; decide carefully when to start the trial + this extension. \
 [Prerequisite](https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/W6xwd/rest-apis-http-requests-part-1)
 
 ### Leetcode
