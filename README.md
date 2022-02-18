@@ -15,7 +15,15 @@ see [suggestion](https://stackoverflow.com/questions/44316184/transform-rotate-d
 [multiple solutions here](https://stackoverflow.com/questions/493296/css-display-an-image-resized-and-cropped); 
 if want to resize to the screen size, check [this](https://stackoverflow.com/questions/4684304/how-can-i-resize-an-image-dynamically-with-css-as-the-browser-width-height-chang)
 
+### How enable efficient whole-website keyword search?
+to simplify review and summary of previous notes/ideas; also enable multi-task viewing, like across-notes
+
+### Tree-like structure of contents shown explicitly?
+to clearly show my learning/career paths
+
 ## Potential projects to put
+### CFA I
+
 ### Coursera 
 [Python and web scrapping](https://www.coursera.org/learn/python-project-for-data-science/home/week/1)
  there is a 6-month extension to the IBM cloud trial account, while the IBM cloud account is necessary to create the final result of the final project of week 1; decide carefully when to start the trial + this extension. \
