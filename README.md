@@ -29,12 +29,11 @@ to clearly show my learning/career paths
  there is a 6-month extension to the IBM cloud trial account, while the IBM cloud account is necessary to create the final result of the final project of week 1; decide carefully when to start the trial + this extension. \
 [Prerequisite](https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/W6xwd/rest-apis-http-requests-part-1)
 
-### Leetcode
-
-### Quant interview
 
 ### Data analysis
 mindmaps, summaries
 
 ### Insights and ideas into certain topics
 the difference between subjects with experiments and surveys in real word, and those only need pen&paper(pure maths except part of stats; theoretic physics?): collect facts from real world and trace back to study the underlying mechanism (e.g. empirical stats in finance like empirical duration), while the latter ones build mechanism and structure of theory to lead to results in real word (e.g. cannot invent an unknown maths theorem)
+
+### Leetcode/Quant interview: any project?
