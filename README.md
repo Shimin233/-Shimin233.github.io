@@ -2,6 +2,22 @@
 Welcome to my [Github page](https://shimin233.github.io) :D
 
 ## Questions
+### Jekyll installation problem
+Try `jekyll new myblog` and`jekyll -v`, in both cases it outputs `no command found`, so installation is not successful. Retry:\
+- when installing jekyll [from local](https://jekyllrb.com/docs/installation/macos/#local-install), get the Warning:\
+`"You don't have [PATH ]in your PATH, gem executables will not run." while using "gem install --user-install bundler"
+Ask Question`. 
+I tried to follow [such solution](https://www.jianshu.com/p/5902b55dc654?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation), and refer to [Related Q&A](https://stackoverflow.com/questions/53979362/you-dont-have-path-in-your-path-gem-executables-will-not-run-while-using), not successful.
+- (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
+```
+# Set up rbenv integration with your shell
+rbenv init
+
+# Check your installation
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
+```
+have a problem `Checking for rbenv shims in PATH: not found`. [Related Q&A](https://github.com/rbenv/rbenv/issues/1217)
+
 ### Add author / copyright info to the image I drew
 
 ### The update the resulting webpage has a delay
