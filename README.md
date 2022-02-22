@@ -22,6 +22,11 @@ to simplify review and summary of previous notes/ideas; also enable multi-task v
 to clearly show my learning/career paths
 
 ## Potential projects to put
+### Languages, hobbies, etc
+Mandarin, English, French (basic)\
+Music: Erhu\
+Others: Jazz Dance, FIgure skating, Manga drawing
+
 ### CFA I
 
 ### Coursera 
