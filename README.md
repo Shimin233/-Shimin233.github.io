@@ -8,6 +8,7 @@ Try `jekyll new myblog` and`jekyll -v`, in both cases it outputs `no command fou
 `"You don't have [PATH ]in your PATH, gem executables will not run." while using "gem install --user-install bundler"`. 
   - I tried to follow [such solution](https://www.jianshu.com/p/5902b55dc654?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation), and refer to [Related Q&A](https://stackoverflow.com/questions/53979362/you-dont-have-path-in-your-path-gem-executables-will-not-run-while-using), not successful.
   - Another idea from [this article](https://www.jianshu.com/p/82652c7a1fa4), maybe restarting Terminal will have jekyll existing there?
+  - Another [possible solution](https://stackoverflow.com/questions/8146249/jekyll-command-not-found)
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
 # Set up rbenv integration with your shell
