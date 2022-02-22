@@ -20,7 +20,7 @@ if want to resize to the screen size, check [this](https://stackoverflow.com/que
 ### How enable efficient whole-website keyword search?
 to simplify review and summary of previous notes/ideas; also enable multi-task viewing, like across-notes
 
-### Tree-like structure of contents shown explicitly?
+### Timeline structure of contents shown explicitly?
 to clearly show my learning/career paths
 
 ## Potential projects to put
