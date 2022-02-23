@@ -11,14 +11,37 @@ Try `jekyll new myblog` and`jekyll -v`, in both cases it outputs `no command fou
   - Another [possible solution](https://stackoverflow.com/questions/8146249/jekyll-command-not-found)
 ------------------Update----------------
   - Thanks to this [answer](https://stackoverflow.com/a/51921506) belonging to this [Q&A](https://stackoverflow.com/questions/8146249/jekyll-command-not-found), I changed the location of gem by `$ gem install -n /usr/local/bin jekyll`, and now inputting `jekyll -v` outputs `jekyll 4.2.1`, installation successful. 
-- Next, try to follow [official Quickstart guide](https://jekyllrb.com/docs/#instructions), created Step 3 `New jekyll site installed in /Users/shiminfu/myblog. `; inputting Step 4 `cd myblog` does not produce anything explictly in Terminal, same for `cd /Users/shiminfu/myblog`; Step 5, tried `bundle add webrick` 
-and then `bundle exec jekyll serve`, Terminal keeps running and no result is given.
-    - My guess: if `cd /Users/shiminfu/myblog` successfully turned working directory to myblog, 
-
+- Next, try to follow [official Quickstart guide](https://jekyllrb.com/docs/#instructions), created Step 3 `New jekyll site installed in /Users/shiminfu/myblog. `; \
+- inputting Step 4 `cd myblog`(also tried `cd /Users/shiminfu/myblog` once, when it says no such directory founc), next I have
+`(base) ShimindeMacBook-Pro:myblog shiminfu$`, so I guess it works; 
+- Step 5, tried `bundle add webrick` 
+and then `bundle exec jekyll serve`, Terminal keeps running and no result is given. 
+    - Closed Terminal and restart it, this step again stays here
+```
+    (base) ShimindeMacBook-Pro:myblog shiminfu$ bundle exec jekyll serve
+Configuration file: /Users/shiminfu/myblog/_config.yml
+            Source: /Users/shiminfu/myblog
+       Destination: /Users/shiminfu/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.516 seconds.
+ Auto-regeneration: enabled for '/Users/shiminfu/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+``` 
+just go to http://localhost:4000 in the browser, it works! But:
+    - simultaneously the Terminal has new lines produced:
+```
+Server running... press ctrl-c to stop.
+[2022-02-23 17:00:23] ERROR `/apple-touch-icon-precomposed.png' not found.
+[2022-02-23 17:00:23] ERROR `/apple-touch-icon.png' not found.
+[2022-02-23 17:00:23] ERROR `/favicon.ico' not found.
+```
+But I guess the most core part of a new blog is completed :D
 
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
-
 # Set up rbenv integration with your shell
 rbenv init
 
