@@ -12,11 +12,11 @@ Try `jekyll new myblog` and`jekyll -v`, in both cases it outputs `no command fou
 ------------------Update----------------
   - Thanks to this [answer](https://stackoverflow.com/a/51921506) belonging to this [Q&A](https://stackoverflow.com/questions/8146249/jekyll-command-not-found), I changed the location of gem by `$ gem install -n /usr/local/bin jekyll`, and now inputting `jekyll -v` outputs `jekyll 4.2.1`, installation successful. 
 - Next, try to follow [official Quickstart guide](https://jekyllrb.com/docs/#instructions), created Step 3 `New jekyll site installed in /Users/shiminfu/myblog. `; \
-- inputting Step 4 `cd myblog`(also tried `cd /Users/shiminfu/myblog` once, when it says no such directory founc), next I have
+- Step 4, inputting `cd myblog`(also tried `cd /Users/shiminfu/myblog` once, when it says no such directory found), next I have
 `(base) ShimindeMacBook-Pro:myblog shiminfu$`, so I guess it works; 
-- Step 5, tried `bundle add webrick` 
+- Step 5, due to Ruby version and by suggested by Jekell Quickstart guide, I tried `bundle add webrick` 
 and then `bundle exec jekyll serve`, Terminal keeps running and no result is given. 
-    - Closed Terminal and restart it, this step again stays here
+    - I closed Terminal and restarted it, this step again stays here
 ```
     (base) ShimindeMacBook-Pro:myblog shiminfu$ bundle exec jekyll serve
 Configuration file: /Users/shiminfu/myblog/_config.yml
@@ -30,15 +30,14 @@ Configuration file: /Users/shiminfu/myblog/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ``` 
-just go to http://localhost:4000 in the browser, it works! But:
-    - simultaneously the Terminal has new lines produced:
+Don't worry, just go to http://localhost:4000 in the browser, it works! But simultaneously the Terminal has new lines produced:
 ```
 Server running... press ctrl-c to stop.
 [2022-02-23 17:00:23] ERROR `/apple-touch-icon-precomposed.png' not found.
 [2022-02-23 17:00:23] ERROR `/apple-touch-icon.png' not found.
 [2022-02-23 17:00:23] ERROR `/favicon.ico' not found.
 ```
-But I guess the most core part of a new blog is completed :D
+However, I guess the most core part of a new blog is completed and such details can be left for later :D
 
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
@@ -49,6 +48,8 @@ rbenv init
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
 ```
 have a problem `Checking for rbenv shims in PATH: not found`. [Related Q&A](https://github.com/rbenv/rbenv/issues/1217)
+
+- After creating the repository folder for my new blog, design and edit it following this [guide](https://jekyllrb.com/docs/step-by-step/01-setup/).
 
 ### Add author / copyright info to the image I drew
 
