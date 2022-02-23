@@ -40,11 +40,16 @@ to simplify review and summary of previous notes/ideas; also enable multi-task v
 ### Timeline structure of contents shown explicitly?
 to clearly show my learning/career paths
 
+
+
 ## Potential projects to put
 ### Languages, hobbies, etc
 Mandarin, English, French (basic)\
 Music: Erhu\
 Others: Jazz Dance, FIgure skating, Manga drawing
+
+### Those in cover letter
+zoom meeting in 2020-21 winter; tutoring and volunteer experience; (video channel); 
 
 ### CFA I
 
