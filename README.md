@@ -81,6 +81,8 @@ to clearly show my learning/career paths
 #### Good example to learn from
 Thanks to https://yang-xijie.github.io, I got inspired by structures and contents
 
+### My learning and notes
+links to my Github repositories
 
 ### Languages, hobbies, etc
 Mandarin, English, French (basic)\
