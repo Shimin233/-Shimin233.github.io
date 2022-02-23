@@ -2,7 +2,7 @@
 Welcome to my [Github page](https://shimin233.github.io) :D
 
 ## Questions
-### Jekyll installation problem
+### Jekyll installation problem- to be used for Github pages formatting
 Try `jekyll new myblog` and`jekyll -v`, in both cases it outputs `no command found`, so installation is not successful. Retry:\
 - Jekyll installation not successful: when installing jekyll [from local](https://jekyllrb.com/docs/installation/macos/#local-install), get the Warning:\
 `"You don't have [PATH ]in your PATH, gem executables will not run." while using "gem install --user-install bundler"`. 
@@ -50,6 +50,9 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | 
 have a problem `Checking for rbenv shims in PATH: not found`. [Related Q&A](https://github.com/rbenv/rbenv/issues/1217)
 
 - After creating the repository folder for my new blog, design and edit it following this [guide](https://jekyllrb.com/docs/step-by-step/01-setup/).
+
+### MkDocs - to be used to Github pages formatting 2
+[Materials for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 ### Add author / copyright info to the image I drew
 
