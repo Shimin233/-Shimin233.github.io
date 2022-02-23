@@ -78,6 +78,8 @@ to clearly show my learning/career paths
 
 
 ## Potential projects to put
+### Job scraping
+
 #### Good example to learn from
 Thanks to https://yang-xijie.github.io, I got inspired by structures and contents
 
