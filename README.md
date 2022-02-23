@@ -78,6 +78,10 @@ to clearly show my learning/career paths
 
 
 ## Potential projects to put
+#### Good example to learn from
+Thanks to https://yang-xijie.github.io, I got inspired by structures and contents
+
+
 ### Languages, hobbies, etc
 Mandarin, English, French (basic)\
 Music: Erhu\
