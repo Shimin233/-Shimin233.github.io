@@ -9,8 +9,16 @@ Try `jekyll new myblog` and`jekyll -v`, in both cases it outputs `no command fou
   - I tried to follow [such solution](https://www.jianshu.com/p/5902b55dc654?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation), and refer to [Related Q&A](https://stackoverflow.com/questions/53979362/you-dont-have-path-in-your-path-gem-executables-will-not-run-while-using), not successful.
   - Another idea from [this article](https://www.jianshu.com/p/82652c7a1fa4), maybe restarting Terminal will have jekyll existing there?
   - Another [possible solution](https://stackoverflow.com/questions/8146249/jekyll-command-not-found)
+------------------Update----------------
+  - Thanks to this [answer](https://stackoverflow.com/a/51921506) belonging to this [Q&A](https://stackoverflow.com/questions/8146249/jekyll-command-not-found), I changed the location of gem by `$ gem install -n /usr/local/bin jekyll`, and now inputting `jekyll -v` outputs `jekyll 4.2.1`, installation successful. 
+- Next, try to follow [official Quickstart guide](https://jekyllrb.com/docs/#instructions), created Step 3 `New jekyll site installed in /Users/shiminfu/myblog. `; inputting Step 4 `cd myblog` does not produce anything explictly in Terminal, same for `cd /Users/shiminfu/myblog`; Step 5, tried `bundle add webrick` 
+and then `bundle exec jekyll serve`, Terminal keeps running and no result is given.
+    - My guess: if `cd /Users/shiminfu/myblog` successfully turned working directory to myblog, 
+
+
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
+
 # Set up rbenv integration with your shell
 rbenv init
 
