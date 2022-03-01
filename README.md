@@ -47,9 +47,16 @@ However, I guess the most core part of a new blog is completed and such details 
     ```
     cd /Users/shiminfu/myblog
     ```
-    to ensure the current working directory being the main folder for your blog/webpage. 
+    to ensure the current working directory being the main folder for your blog/webpage. Then run
+    ```
+    bundle install
+    ```
+    to apply all changes of Gemfile. Wait for its installation, then
+    ```
+    bundle exec jekyll serve
+    ```
+    Again you will reach the exact situation in which we can go to http://localhost:4000 in the browser. You can now see a webpage in an interface like [Jekyll admin](https://jekyll.github.io/jekyll-admin/).
     
-
 
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
