@@ -34,6 +34,7 @@ include:
  ```
  where I think those .md files are completely up to what .md files you want to show - but I did not delete any from the [guide](https://nicolas-van.github.io/easy-markdown-to-github-pages/) just for safety. Then just save it with name `_config.yml' to your personal webpage .github.io repository folder. Yes, just type it and save, yout computer will recognise how to use it for your webpage (for example, my mac opens it with Visual Studio code by default ;P)
 2. Quote the .md file, by simply replacing the `.md` extension by `.html`, in your index.html; the format `<a href=""></a>` is just like quoting another html, images and pdfs in html. Your jekyll and \_congif.yml will then recognise that you want to display this .md in the form of a html webpage. My codes are like:
+
 ```html
 <p class="sans-serif"> I am simultaneously trying to apply what I learned to real needs, such as 
       <a href="JobScraping.html">Webscraping for job descriptions</a> </p> <!--JobScrapingmd is in the same folder as index.html-->
