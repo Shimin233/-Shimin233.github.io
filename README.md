@@ -2,6 +2,9 @@
 Welcome to my [Github page](https://shimin233.github.io) :D
 
 ## Questions
+### Display markdown files on Githubpages using Jekyll - \_config.yml
+[Ref](https://nicolas-van.github.io/easy-markdown-to-github-pages/). I have to figure out how to apply .yml if I start with a repository without any
+configuration file.
 
 ### MkDocs - to be used to Github pages formatting 2
 [Materials for MkDocs](https://squidfunk.github.io/mkdocs-material/)
