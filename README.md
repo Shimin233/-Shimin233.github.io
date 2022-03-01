@@ -56,6 +56,7 @@ However, I guess the most core part of a new blog is completed and such details 
     bundle exec jekyll serve
     ```
     Again you will reach the exact situation in which we can go to http://localhost:4000 in the browser. You can now see a webpage in an interface like [Jekyll admin](https://jekyll.github.io/jekyll-admin/).
+      - Further details about Jekyll Admin, see [its Github repository](https://github.com/jekyll/jekyll-admin)
     
 
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
