@@ -30,7 +30,7 @@ Configuration file: /Users/shiminfu/myblog/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ``` 
-Don't worry, just go to http://localhost:4000 in the browser, it works! But simultaneously the Terminal has new lines produced:
+Don't worry, it is exactly when we can go to http://localhost:4000 in the browser, it works! But simultaneously the Terminal has new lines produced:
 ```
 Server running... press ctrl-c to stop.
 [2022-02-23 17:00:23] ERROR `/apple-touch-icon-precomposed.png' not found.
@@ -39,6 +39,8 @@ Server running... press ctrl-c to stop.
 ```
 However, I guess the most core part of a new blog is completed and such details can be left for later :D
 
+-  [Jekyll admin](https://jekyll.github.io/jekyll-admin/), the graphical interface for Jekyll. 
+    - I finally figure out how the so-called Gemfile is edited to add features to Jekyll webpage. 
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
 # Set up rbenv integration with your shell
