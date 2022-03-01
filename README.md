@@ -40,7 +40,17 @@ Server running... press ctrl-c to stop.
 However, I guess the most core part of a new blog is completed and such details can be left for later :D
 
 -  [Jekyll admin](https://jekyll.github.io/jekyll-admin/), the graphical interface for Jekyll. 
-    - I finally figure out how the so-called Gemfile is edited to add features to Jekyll webpage. 
+    - I finally figure out how the so-called plugin, particularly Gemfile is edited to add features to Jekyll webpage: 
+    1. As in [Jekyll admin](https://jekyll.github.io/jekyll-admin/)-installation, open your local folder built for your blog/web, say myblog as above created, open the Gemfile in it (any TextEdit.app such basic text tool works);
+    2. You can read instructions in Gemfile itself. Find `:jekyll_plugins`, just type this new line (with indent) below it, `gem "jekyll-admin"`. All lines below `:jekell_plugins` but above `end` are the gems loaded at the very beginning of any Jekyll process, as explained in [Jekyll plugins - Gemfile - :jekyll_plugins](https://jekyllrb.com/docs/plugins/installation/#the-jekyll_plugins-group).
+    3. Now save this updated Gemfile, before closing it notice the beginning of it, we are going to do so soon. In Terminal, first run 
+    ```
+    cd /Users/shiminfu/myblog
+    ```
+    to ensure the current working directory being the main folder for your blog/webpage. 
+    
+
+
 - (optional)when [installing rbenv](https://jekyllrb.com/docs/installation/macos/#rbenv), at the step of 
 ```
 # Set up rbenv integration with your shell
