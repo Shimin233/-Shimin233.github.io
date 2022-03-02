@@ -3,6 +3,11 @@ Welcome to my [Github page](https://shimin233.github.io) :D
 
 ## Questions
 
+## display md and jupyter notes in a better way - later update Display_Notes.md accordingly
+embedding into my page better - background, fonts, etc.\
+docu by docu, with navigator area buttons on the side\
+the dept for notes should be like jekyll website, with both buttons in main area od webpage and navigator bar
+
 ## New line in one paragraph
 [this helps](https://stackoverflow.com/a/2703609)
 
