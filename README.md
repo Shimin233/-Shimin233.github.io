@@ -3,6 +3,8 @@ Welcome to my [Github page](https://shimin233.github.io) :D
 
 ## Questions
 
+## New line in one paragraph
+[this helps](https://stackoverflow.com/a/2703609)
 
 ### MkDocs - to be used to Github pages formatting 2
 [Materials for MkDocs](https://squidfunk.github.io/mkdocs-material/)
