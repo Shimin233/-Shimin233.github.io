@@ -1,0 +1,1 @@
+The fonts applicable to Chinese are those with name:Fandol*.otfAdobe*Std*.otftexgyretermes-*.otfNotoSansSC-*.otfNotoSerifSC-*.otf

@@ -1,0 +1,47 @@
+
+%====Fonts======
+
+%follow this template:
+%https://www.overleaf.com/latex/templates/chinese-resume-template-zhong-wen-jian-li-mo-ban/fbdypsjmgwbb
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cvcnfont}[2021/03/25 My fonts used in bilingual CV in CN and EN] %use this to write my own package
+
+
+%=====English fonts=======
+\Requirepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Path = fonts/, Mapping=tex-text}%set the default, i.e. common features of the following fonts, like path (all the fonts are put in the same folder 'fonts/')incl. English and Chinese
+%(I do not know whether we can end applying this command below, maybe create a new sty. file if the default features change) 
+
+\setromanfont{TrajanPro-Regular.otf} %replace Hoefler Text
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Arial} %use Arial by the command: {\sffamily Your text} or: \textsf{ Your text}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+%=====Chinese fonts=======
+\RequirePackage{fontspec}
+\RequirePackage{xeCJK}
+
+\defaultfontfeatures{Path = fonts/, Mapping=tex-text}
+
+\setCJKmainfont[
+BoldFont=AdobeHeitiStd-Regular.otf,
+ItalicFont=AdobeKaitiStd-Regular.otf,
+SmallCapsFont=AdobeHeitiStd-Regular.otf
+]{AdobeSongStd-Light.otf}
+\setCJKsansfont{AdobeHeitiStd-Regular.otf}
+\setCJKmonofont{AdobeFangsongStd-Regular.otf}
+
+\setCJKfamilyfont{zhsong}{AdobeSongStd-Light.otf}
+\setCJKfamilyfont{zhhei}{AdobeHeitiStd-Regular.otf}
+\setCJKfamilyfont{zhfs}{AdobeFangsongStd-Regular.otf}
+\setCJKfamilyfont{zhkai}{AdobeKaitiStd-Regular.otf}
+
+\newcommand*{\songti}{\CJKfamily{zhsong}} % 宋体
+\newcommand*{\heiti}{\CJKfamily{zhhei}}   % 黑体
+\newcommand*{\kaishu}{\CJKfamily{zhkai}}  % 楷书
+\newcommand*{\fangsong}{\CJKfamily{zhfs}} % 仿宋
+
+\endinput
+
+
+
