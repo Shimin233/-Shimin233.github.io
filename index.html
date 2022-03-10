@@ -21,6 +21,7 @@
       }
       .h2c {
         color: #ccab7f;
+        text-shadow: -3px 2px #28210246;
         font-family: Verdana, Helvetica, sans-serif;
       }
       .profile {
@@ -48,6 +49,46 @@
       .forest {
         width: 100%;
         height: 150px;
+      }
+      /*text part of "Left text, right image"*/
+      div.left-text-container {
+        float: left;
+        position: relative;
+        background-color: #56563a67;
+        height: 200px;
+        width: 50%;
+      }
+      div.left-text {
+        position: absolute;
+        background-color: #ccab7f5e;
+        top: 40px;
+        left: 20px;
+        text-align: left;
+        padding: 15px;
+        width: 100%;
+      }
+      /*text part of "Right text,left image"*/
+      div.right-text-container {
+        float: left;
+        position: relative;
+        background-color: #56563a67;
+        height: 200px;
+        width: 50%;
+      }
+      div.right-text {
+        position: absolute;
+        background-color: #ccab7f5e;
+        top: 40px;
+        right: 20px;
+        text-align: left;
+        padding: 15px;
+        width: 100%;
+      }
+      /*This image format is for both of left-text-right-image and right-text-left-image*/
+      div.side-image-container {
+        float: left;
+        position: static;
+        width: 50%;
       }
       /* Container holding the image and the text */
       .container-c {
@@ -271,44 +312,43 @@
       />
       <div class="centered serif">Welcome to Shimin FU's page! :D</div>
     </div>
-    <div class="center">
-      <p class="mid sans-serif" style="color: #ebe6dd">
-        This webpage will be updated continuously.
-      </p>
-    </div>
-    <figure>
+
+    <!--<figure>
       <img
         class="mid profile"
         src="images/OCsurprise.jpeg"
         alt="OC is surprised"
       />
-      <!--<figcaption class="mid sans-serif">This is my original character, Lynn</figcaption> -->
-    </figure>
+      <figcaption class="mid sans-serif">This is my original character, Lynn</figcaption></figure>-->
 
-    <div class="timeline">
-      <div class="container left">
-        <div class="content">
-          <div class="h2div">
-            <h2 class="h2c">Maths - Where I start</h2>
-          </div>
-          <p class="sans-serif">
-            I completed my Master and Bachelor in Mathematics at University of
-            Cambridge and McGill respectively. Based on my Mathematical
-            background, I am always excited to explore the connection between
-            real-world businesses and the theoretical studies!
+    <div style="position: relative; top: 50px; height: 400px">
+      <div class="side-image-container">
+        <img
+          style="object-fit: cover; width: 100%; height: 300px"
+          src="images/fitzhall.jpg"
+          alt="Fitzwilliam College Buttery Hall"
+        />
+      </div>
+      <div style="height: 300px" class="right-text-container">
+        <div class="right-text sans-serif">
+          <h2 class="h2c">Maths - Where I start</h2>
+          <p>
+            Master and Bachelor in Mathematics, at University of Cambridge and
+            McGill respectively.
           </p>
-          <p class="sans-serif">
-            Now I am expanding my scope from the academic to the practical -
-            Data analysis, Finance, programming, and web designing - producing
-            this webpage you are viewing :D !
+          <p>
+            Based on my Mathematical background, I am always excited to explore
+            the connection between real-world businesses and the theoretical
+            studies!
           </p>
         </div>
       </div>
-      <div class="container right">
-        <div class="content sans-serif">
-          <div class="h2div">
-            <h2 class="h2c">Finance - Heading for a career</h2>
-          </div>
+    </div>
+
+    <div style="position: relative; height: 400px">
+      <div class="left-text-container" style="height: 350px">
+        <div class="left-text sans-serif">
+          <h2 class="h2c">Finance - Heading for a career</h2>
           <p>
             Indeed, it is challenging to turn from my familiar maths academia to
             an industrial career. However, it equips me with a wider picture of
@@ -323,66 +363,81 @@
           </p>
         </div>
       </div>
-      <div class="container left">
-        <div class="content">
-          <div class="h2div">
-            <h2 class="h2c">Learning and notes</h2>
-          </div>
-          <div class="sans-serif">
+      <div class="side-image-container">
+        <img
+          style="object-fit: cover; width: 100%; height: 350px"
+          src="images/window.jpg"
+          alt="Notes on window"
+        />
+      </div>
+    </div>
+
+    <div style="position: relative; height: 500px; margin: 10px">
+      <div class="side-image-container">
+        <img
+          style="object-fit: cover; width: 100%; height: 450px"
+          src="images/ferris_vertical.jpg"
+          alt="Ferris wheel in Cambridge"
+        />
+      </div>
+      <div style="height: 450px" class="right-text-container">
+        <div class="right-text sans-serif">
+          <h2 class="h2c">Learning and notes</h2>
+          <p>
             Whether at university or not, learning new things is a core of my
             life. I follow online resources and take my own notes.
-            <ul class="s">
-              <li>
-                <a
-                  class="sans-serif"
-                  href="https://github.com/Shimin233/Python100days"
-                  >Python Notes</a
-                >
-              </li>
-              <li>
-                <a
-                  class="sans-serif"
-                  href="https://github.com/Shimin233/SQL_learning"
-                  >MySQL</a
-                >
-              </li>
-              <li>
-                <a
-                  class="sans-serif"
-                  href="https://github.com/Shimin233/R_programming_studies"
-                  >R with R studio</a
-                >
-              </li>
-              <li>
-                <a href="https://github.com/Shimin233/Web_HTML">HTML</a>
-                and
-                <a href="https://github.com/Shimin233/C-plus-plus-Notes">
-                  C++ through Visual Studio Code
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Shimin233/Jekyll">Jekyll</a>
-                to improve this personal website, for example:
-                <a href="Display_notes.html">the use of configuration file</a>
-              </li>
-            </ul>
-            <p>
-              I simultaneously apply what I learned to real needs, such as
+          </p>
+          <ul class="s">
+            <li>
               <a
-                href="https://github.com/Shimin233/Shimin233.github.io/tree/main/files/CV_bilingual_template"
-                >XeLaTeX bilingual (Chinese and English) CV template</a
-              >: formatting in class and style files with customisable fonts;
+                class="sans-serif"
+                href="https://github.com/Shimin233/Python100days"
+                >Python Notes</a
+              >
+            </li>
+            <li>
+              <a
+                class="sans-serif"
+                href="https://github.com/Shimin233/SQL_learning"
+                >MySQL</a
+              >
+            </li>
+            <li>
+              <a
+                class="sans-serif"
+                href="https://github.com/Shimin233/R_programming_studies"
+                >R with R studio</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Shimin233/Web_HTML">HTML</a>
               and
-              <a href="JobScraping.html">Webscraping for job descriptions</a>
-            </p>
-          </div>
+              <a href="https://github.com/Shimin233/C-plus-plus-Notes">
+                C++ through Visual Studio Code
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Shimin233/Jekyll">Jekyll</a>
+              to improve this personal website, for example:
+              <a href="Display_notes.html">the use of configuration file</a>
+            </li>
+          </ul>
+          <p>
+            I simultaneously apply what I learned to real needs, such as
+            <a
+              href="https://github.com/Shimin233/Shimin233.github.io/tree/main/files/CV_bilingual_template"
+              >XeLaTeX bilingual (Chinese and English) CV template</a
+            >: formatting in class and style files with customisable fonts; and
+            <a href="JobScraping.html">Webscraping for job descriptions</a>
+          </p>
         </div>
       </div>
-      <div class="container right">
-        <div class="content">
-          <div class="h2div">
-            <h2 class="h2c">What else about me...</h2>
-          </div>
+    </div>
+
+    <div style="position: relative; height: 500px">
+      <div class="left-text-container" style="height: 500px">
+        <div class="left-text sans-serif">
+          <h2 class="h2c">What else about me...</h2>
           <div class="sans-serif">
             <b> Organised a series of online Zoom meetings </b> among my friends
             across multiple disciplines and years in the winter 2020-21,
@@ -404,15 +459,42 @@
             <ul class="s">
               <li>Erhu (a Chinese traditional instrument), over 17 years</li>
               <li>
-                Manga drawing - as you can see my original character at top of
-                this page ;)
+                Manga drawing
+                <!--- as you can see my original character at top of
+                this page ;)-->
               </li>
             </ul>
           </div>
         </div>
       </div>
+      <div class="side-image-container">
+        <img
+          style="object-fit: cover; width: 100%; height: 500px"
+          src="images/sunflower.jpg"
+          alt="Sunflower and octopus"
+        />
+      </div>
     </div>
 
-    <a href="#">Jump to Top</a>
+    <div
+      class="sans-serif"
+      style="
+        position: relative;
+        bottom: 1px;
+        width: 100%;
+        background-color: #282102;
+        font-size: small;
+      "
+    >
+      <p>
+        Thanks to <a href="https://unsplash.com/@wonderlane">@wonderlane</a> for
+        the beautiful picture of light through forest, which I use as the header
+        of this webpage.
+      </p>
+      <p>
+        All the rest of images on this page are taken/drawn by me. Feel free to
+        email me if you want to use them elsewhere ;)
+      </p>
+    </div>
   </body>
 </html>

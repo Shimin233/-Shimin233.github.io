@@ -49,6 +49,46 @@
         width: 100%;
         height: 150px;
       }
+      /*text part of "Left text, right image"*/
+      div.left-text-container {
+        float: left;
+        position: relative;
+        background-color: #56563a67;
+        height: 200px;
+        width: 50%;
+      }
+      div.left-text {
+        position: absolute;
+        background-color: #ccab7f5e;
+        top: 40px;
+        left: 20px;
+        text-align: right;
+        padding: 15px;
+        width: 100%;
+      }
+      /*text part of "Right text,left image"*/
+      div.right-text-container {
+        float: left;
+        position: relative;
+        background-color: #56563a67;
+        height: 200px;
+        width: 50%;
+      }
+      div.right-text {
+        position: absolute;
+        background-color: #ccab7f5e;
+        top: 40px;
+        right: 20px;
+        text-align: right;
+        padding: 15px;
+        width: 100%;
+      }
+      /*This image format is for both of left-text-right-image and right-text-left-image*/
+      div.side-image-container {
+        float: left;
+        position: static;
+        width: 50%;
+      }
       /* Container holding the image and the text */
       .container-c {
         position: relative;
@@ -273,6 +313,11 @@
     />
     <div class="centered serif">Welcome to Shimin FU's page! :D</div>
   </div>
+      <div class="center">
+      <p class="mid sans-serif" style="color: #ebe6dd">
+        This webpage will be updated continuously.
+      </p>
+    </div>
   <div
     style="
       position: relative;
@@ -315,33 +360,14 @@
   </div>
 
   <div style="position: relative; height: 240px">
-    <div
-      style="
-        float: left;
-        position: relative;
-        background-color: #56563a67;
-        height: 200px;
-        width: 50%;
-      "
-    >
-      <div
-        style="
-          position: absolute;
-          background-color: #ccab7f5e;
-          top: 40px;
-          left: 20px;
-          text-align: right;
-          padding: 15px;
-          width: 100%;
-        "
-        class="sans-serif"
-      >
+    <div class="left-text-container">
+      <div class="left-text sans-serif">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate,
         animi nulla facere quis eos sed quod laborum culpa veritatis praesentium
         vero nisi minima magnam saepe asperiores ab. Tenetur, eveniet incidunt!
       </div>
     </div>
-    <div style="float: left; position: static; width: 50%">
+    <div class="side-image-container">
       <img
         style="object-fit: cover; width: 100%; height: 200px"
         src="images/fitzhall.jpg"
@@ -350,38 +376,158 @@
     </div>
   </div>
   <div style="position: relative; height: 350px">
-    <div style="float: left; position: static; width: 50%">
+    <div class="side-image-container">
       <img
         style="object-fit: cover; width: 100%; height: 300px"
         src="images/window.jpg"
         alt="Notes on window"
       />
     </div>
-    <div
-      style="
-        float: left;
-        position: relative;
-        background-color: #56563a67;
-        height: 300px;
-        width: 50%;
-      "
-    >
-      <div
-        style="
-          position: absolute;
-          background-color: #ccab7f5e;
-          top: 40px;
-          right: 20px;
-          text-align: right;
-          padding: 15px;
-          width: 100%;
-        "
-        class="sans-serif"
-      >
+    <div style="height: 300px" class="right-text-container">
+      <div class="right-text sans-serif">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate,
         animi nulla facere quis eos sed quod laborum culpa veritatis praesentium
         vero nisi minima magnam saepe asperiores ab. Tenetur, eveniet incidunt!
       </div>
     </div>
+  </div>
+
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <div class="h2div">
+          <h2 class="h2c">Maths - Where I start</h2>
+        </div>
+        <p class="sans-serif">
+          I completed my Master and Bachelor in Mathematics at University of
+          Cambridge and McGill respectively. Based on my Mathematical
+          background, I am always excited to explore the connection between
+          real-world businesses and the theoretical studies!
+        </p>
+        <p class="sans-serif">
+          Now I am expanding my scope from the academic to the practical - Data
+          analysis, Finance, programming, and web designing - producing this
+          webpage you are viewing :D !
+        </p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content sans-serif">
+        <div class="h2div">
+          <h2 class="h2c">Finance - Heading for a career</h2>
+        </div>
+        <p>
+          Indeed, it is challenging to turn from my familiar maths academia to
+          an industrial career. However, it equips me with a wider picture of
+          the world and a better idea about who I am about to become.
+        </p>
+        <p>
+          Now being a Level I candidate in the
+          <a href="https://www.cfainstitute.org/en/programs/cfa">CFA</a>
+          program, I welcome any opportunity of working as a graduate trainee,
+          as long as you are ready for my endless curiosity and perseverance ;)
+        </p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <div class="h2div">
+          <h2 class="h2c">Learning and notes</h2>
+        </div>
+        <div class="sans-serif">
+          Whether at university or not, learning new things is a core of my
+          life. I follow online resources and take my own notes.
+          <ul class="s">
+            <li>
+              <a
+                class="sans-serif"
+                href="https://github.com/Shimin233/Python100days"
+                >Python Notes</a
+              >
+            </li>
+            <li>
+              <a
+                class="sans-serif"
+                href="https://github.com/Shimin233/SQL_learning"
+                >MySQL</a
+              >
+            </li>
+            <li>
+              <a
+                class="sans-serif"
+                href="https://github.com/Shimin233/R_programming_studies"
+                >R with R studio</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Shimin233/Web_HTML">HTML</a>
+              and
+              <a href="https://github.com/Shimin233/C-plus-plus-Notes">
+                C++ through Visual Studio Code
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Shimin233/Jekyll">Jekyll</a>
+              to improve this personal website, for example:
+              <a href="Display_notes.html">the use of configuration file</a>
+            </li>
+          </ul>
+          <p>
+            I simultaneously apply what I learned to real needs, such as
+            <a
+              href="https://github.com/Shimin233/Shimin233.github.io/tree/main/files/CV_bilingual_template"
+              >XeLaTeX bilingual (Chinese and English) CV template</a
+            >: formatting in class and style files with customisable fonts; and
+            <a href="JobScraping.html">Webscraping for job descriptions</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="h2div">
+          <h2 class="h2c">What else about me...</h2>
+        </div>
+        <div class="sans-serif">
+          <b> Organised a series of online Zoom meetings </b> among my friends
+          across multiple disciplines and years in the winter 2020-21,
+          <ul class="s">
+            <li>helping releasing pressure due to lockdown and course tasks</li>
+            <li>communicating about career ideas</li>
+          </ul>
+
+          <b
+            >Tutoring at the Maths Helpdesk at McGill University from 2019 to
+            2020</b
+          >
+          <ul class="s">
+            <li>help students from Maths, Econ and Physics</li>
+          </ul>
+          <b>Also: </b>
+          <ul class="s">
+            <li>Erhu (a Chinese traditional instrument), over 17 years</li>
+            <li>
+              Manga drawing - as you can see my original character at top of
+              this page ;)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Better to use symbol of arrow, for this 'back to top' button-->
+  <div
+    style="
+      position: sticky;
+      bottom: 2px;
+      background-color: #56563ad0;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin: 10px;
+      text-align: center;
+    "
+  >
+    <a class="sans-serif" href="#">Top</a>
   </div>
 </body>
